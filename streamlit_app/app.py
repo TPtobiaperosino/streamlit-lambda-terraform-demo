@@ -12,8 +12,11 @@ name = st.text_input("Enter your name:")
 # Button to simulate sending a request
 if st.button("Send"):
     # Build the URL that would be sent to AWS, including the name parameter
-    api_url = "https://example.com?name=" + name
+    api_url = "https://qonm1uqilc.execute-api.eu-west-1.amazonaws.com"
 
+    # Call the real Lambda endpoint
+    response = requests.get(f"{api_url}/?name={name}")
+    
     # Show the URL on the page
     st.write(f"Request sent to: {api_url}")
 
