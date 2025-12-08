@@ -68,7 +68,7 @@ terraform apply
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 streamlit-lambda-terraform-demo/
@@ -87,7 +87,7 @@ streamlit-lambda-terraform-demo/
 
 ---
 
-## 🧹 Cleanup
+## Cleanup
 
 When you're done testing:
 
