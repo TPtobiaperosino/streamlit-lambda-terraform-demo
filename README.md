@@ -5,7 +5,7 @@ a local frontend (Streamlit) to a cloud backend (AWS Lambda) managed through Ter
 
 ---
 
-## 🧩 Architecture Overview
+## Architecture Overview
 
 1. **Frontend – Streamlit App**  
    Provides a simple web UI where the user can enter their name.  
@@ -19,7 +19,7 @@ a local frontend (Streamlit) to a cloud backend (AWS Lambda) managed through Ter
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The user opens the Streamlit app and enters their name.  
 2. Streamlit sends an HTTP request to the API Gateway.  
@@ -33,7 +33,7 @@ Hello <name> from AWS Lambda!
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 To demonstrate the full connection between:
 - a local frontend (Streamlit),
@@ -44,7 +44,7 @@ This setup is ideal for learning serverless architectures and Infrastructure as 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install dependencies
 ```bash
